@@ -1,0 +1,52 @@
+ nav{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(122, 109, 124);
+    align-items: center;
+ }
+
+ nav button{
+    margin: 5px;
+    background-color: transparent;
+    border: none;
+    color: white;
+ }
+
+ .cart-logo-css{
+    color: white;
+}
+
+.cart-logo{
+    display: flex;
+    align-items: center; 
+    padding: 10px;
+}
+
+.cart-logo img{
+    width: 35px;
+    height: fit-content;
+}
+
+.cart-logo-css{
+    color: #000;
+    width: 25px;
+    height: 30px; 
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+    top: 7px;
+    right: 10px; 
+}
+
+.pofile-icon{
+    width: 30px;
+    padding-right: 10px; 
+
+}
+.shop-name{
+    position:fixed;
+    left: 50px;
+ 
+}
